@@ -1,0 +1,61 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Assignments Tests",
+    "children" : [ {
+      "name" : "3 greater than 4",
+      "uid" : "a844f6e6f7b478dc",
+      "parentUid" : "fb7eeb79fa6ceca7e5708a205f8ab992",
+      "status" : "failed",
+      "time" : {
+        "start" : 1610052064434,
+        "stop" : 1610052064438,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Array [8,9,11,23] length is 4",
+      "uid" : "1482e72c7f4014bd",
+      "parentUid" : "fb7eeb79fa6ceca7e5708a205f8ab992",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610052064439,
+        "stop" : 1610052064440,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "strict equal 101 to '101'",
+      "uid" : "a1b91f037ca317a2",
+      "parentUid" : "fb7eeb79fa6ceca7e5708a205f8ab992",
+      "status" : "failed",
+      "time" : {
+        "start" : 1610052064440,
+        "stop" : 1610052064441,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Array ['a','b','c'] contains 'c'",
+      "uid" : "862474a5c04f21ad",
+      "parentUid" : "fb7eeb79fa6ceca7e5708a205f8ab992",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610052064441,
+        "stop" : 1610052064442,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fb7eeb79fa6ceca7e5708a205f8ab992"
+  } ]
+}

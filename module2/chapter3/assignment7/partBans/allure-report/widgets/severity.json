@@ -1,0 +1,41 @@
+[ {
+  "uid" : "862474a5c04f21ad",
+  "name" : "Array ['a','b','c'] contains 'c'",
+  "time" : {
+    "start" : 1610052064441,
+    "stop" : 1610052064442,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1b91f037ca317a2",
+  "name" : "strict equal 101 to '101'",
+  "time" : {
+    "start" : 1610052064440,
+    "stop" : 1610052064441,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1482e72c7f4014bd",
+  "name" : "Array [8,9,11,23] length is 4",
+  "time" : {
+    "start" : 1610052064439,
+    "stop" : 1610052064440,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a844f6e6f7b478dc",
+  "name" : "3 greater than 4",
+  "time" : {
+    "start" : 1610052064434,
+    "stop" : 1610052064438,
+    "duration" : 4
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

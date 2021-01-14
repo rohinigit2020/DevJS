@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jan 07 17:12:19 GMT 2021","Thu Jan 07 17:12:19 GMT 2021","1","Assignments Tests","","","","","Array ['a','b','c'] contains 'c'",""
+"failed","Thu Jan 07 17:12:19 GMT 2021","Thu Jan 07 17:12:19 GMT 2021","4","Assignments Tests","","","","","3 greater than 4",""
+"failed","Thu Jan 07 17:12:19 GMT 2021","Thu Jan 07 17:12:19 GMT 2021","1","Assignments Tests","","","","","strict equal 101 to '101'",""
+"passed","Thu Jan 07 17:12:19 GMT 2021","Thu Jan 07 17:12:19 GMT 2021","1","Assignments Tests","","","","","Array [8,9,11,23] length is 4",""

@@ -1,0 +1,41 @@
+{
+  "uid" : "a844f6e6f7b478dc",
+  "name" : "3 greater than 4",
+  "fullName" : "3 greater than 4",
+  "historyId" : "273745b4e2ef63ab4ac0a12d819613d6",
+  "time" : {
+    "start" : 1610052064434,
+    "stop" : 1610052064438,
+    "duration" : 4
+  },
+  "status" : "failed",
+  "statusMessage" : "3 is greater than 4: expected 3 to be above 4",
+  "statusTrace" : "AssertionError: 3 is greater than 4: expected 3 to be above 4\n    at Context.<anonymous> (file:///Users/sreesanga/Desktop/Axone/devJS/module2/chapter3/assignment7/partBans/specs/test.js:12:16)\n    at processImmediate (internal/timers.js:461:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Assignments Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a844f6e6f7b478dc.json",
+  "parameterValues" : [ ]
+}

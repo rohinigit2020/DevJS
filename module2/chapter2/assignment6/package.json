@@ -1,0 +1,27 @@
+{
+  "name": "assignment6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "readJson.js",
+  "type" : "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "file1": " node npmScripts/file1.js",
+    "file2": " node npmScripts/file2.js",
+    "file3": " node npmScripts/file3.js",
+    "file4": " node npmScripts/file4.js",
+    "file5": " node npmScripts/file5.js",
+    "runall": " npm run file1 && npm run file2 && npm run file3 && npm run file4 && npm run file5",
+    "person" : "./node_modules/.bin/babel-node person/importPerson.js  ",
+    "books" : "node --experimental-json-modules  json/books.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
+  }
+}

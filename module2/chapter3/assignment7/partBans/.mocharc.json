@@ -1,0 +1,4 @@
+{
+    "reporter" : "spec",
+    "spec" : "specs/test.js"
+}

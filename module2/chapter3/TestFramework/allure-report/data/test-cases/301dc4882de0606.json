@@ -1,0 +1,35 @@
+{
+  "uid" : "301dc4882de0606",
+  "name" : "Array ['a','b','c'] contains 'c'",
+  "fullName" : "Array ['a','b','c'] contains 'c'",
+  "historyId" : "e3f4de4071f39e8414f2d74ff8b944ab",
+  "time" : {
+    "start" : 1610039539626,
+    "stop" : 1610039539627,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Assignments Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "301dc4882de0606.json",
+  "parameterValues" : [ ]
+}

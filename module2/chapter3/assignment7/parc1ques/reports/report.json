@@ -1,0 +1,92 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "arrays;count-array-elements",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Count array elements",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": ": array is empty",
+            "match": {
+              "location": "features/support/step_definitions/steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": ": the length of array should be 0",
+            "match": {
+              "location": "features/support/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": ": the array is loaded with elements 2,3,4",
+            "match": {
+              "location": "features/support/step_definitions/steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": ": the length of array should be 3",
+            "match": {
+              "location": "features/support/step_definitions/steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "arrays",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Arrays",
+    "tags": [],
+    "uri": "features/test.feature"
+  }
+]

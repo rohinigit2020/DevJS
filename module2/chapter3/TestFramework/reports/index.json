@@ -1,0 +1,169 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 2,
+    "pending": 0,
+    "failures": 2,
+    "start": "2021-01-07T17:10:27.511Z",
+    "end": "2021-01-07T17:10:27.519Z",
+    "duration": 8,
+    "testsRegistered": 4,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e1e6b645-2730-4a93-9ad9-a1a08e929a49",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d179b8d2-7e16-4c8d-b37a-57c34292f026",
+          "title": "Assignments Tests",
+          "fullFile": "/Users/sreesanga/Desktop/Axone/devJS/module2/chapter3/TestFramework/specs/assignmentTests.js",
+          "file": "/specs/assignmentTests.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "3 greater than 4",
+              "fullTitle": "Assignments Tests 3 greater than 4",
+              "timedOut": false,
+              "duration": 2,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"This is Comparision Test\")\nassert.isAbove(3,4,'3 is greater than 4')",
+              "err": {
+                "message": "AssertionError: 3 is greater than 4: expected 3 to be above 4",
+                "estack": "AssertionError: 3 is greater than 4: expected 3 to be above 4\n    at Context.<anonymous> (file:///Users/sreesanga/Desktop/Axone/devJS/module2/chapter3/TestFramework/specs/assignmentTests.js:12:16)\n    at processImmediate (internal/timers.js:461:21)",
+                "diff": "- 3\n+ 4\n"
+              },
+              "uuid": "d6f7acd5-a284-45da-ad89-9e522b03f39b",
+              "parentUUID": "d179b8d2-7e16-4c8d-b37a-57c34292f026",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Array [8,9,11,23] length is 4",
+              "fullTitle": "Assignments Tests Array [8,9,11,23] length is 4",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"This is Array length Test\")\nlet arr = [8,9,11,23];\nlet len = arr.length;\nassert.equal(len,'4','array length is not equal to 4')",
+              "err": {},
+              "uuid": "2ff2fb1c-fe31-4b94-aecd-d5e56f0868da",
+              "parentUUID": "d179b8d2-7e16-4c8d-b37a-57c34292f026",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "strict equal 101 to '101'",
+              "fullTitle": "Assignments Tests strict equal 101 to '101'",
+              "timedOut": false,
+              "duration": 1,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"This is Comparing strict equal Test\")\nassert.strictEqual(101,'101','Either value or data type is different')",
+              "err": {
+                "message": "AssertionError: Either value or data type is different: expected 101 to equal '101'",
+                "estack": "AssertionError: Either value or data type is different: expected 101 to equal '101'\n    at Context.<anonymous> (file:///Users/sreesanga/Desktop/Axone/devJS/module2/chapter3/TestFramework/specs/assignmentTests.js:24:15)\n    at processImmediate (internal/timers.js:461:21)",
+                "diff": null
+              },
+              "uuid": "8dcb7c21-7066-41f4-80c8-a8be453c3919",
+              "parentUUID": "d179b8d2-7e16-4c8d-b37a-57c34292f026",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Array ['a','b','c'] contains 'c'",
+              "fullTitle": "Assignments Tests Array ['a','b','c'] contains 'c'",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let arrStr = ['a','b','c']\nconsole.log(\"This Array includes Test\")\nassert.include(arrStr,'c','C is included in the array')",
+              "err": {},
+              "uuid": "7fae9d48-4298-4a86-9032-33bf6a69fbe7",
+              "parentUUID": "d179b8d2-7e16-4c8d-b37a-57c34292f026",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2ff2fb1c-fe31-4b94-aecd-d5e56f0868da",
+            "7fae9d48-4298-4a86-9032-33bf6a69fbe7"
+          ],
+          "failures": [
+            "d6f7acd5-a284-45da-ad89-9e522b03f39b",
+            "8dcb7c21-7066-41f4-80c8-a8be453c3919"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 3,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.2.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "index",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "reports",
+        "reportFilename": "index"
+      },
+      "version": "5.1.0"
+    }
+  }
+}

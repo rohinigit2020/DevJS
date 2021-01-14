@@ -1,0 +1,6 @@
+{
+    "spec": "specs/*.js",
+    "reporter": "mochawesome",
+    "timeout" : 5000
+    
+}

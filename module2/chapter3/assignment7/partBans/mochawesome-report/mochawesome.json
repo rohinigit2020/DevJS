@@ -1,0 +1,166 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 2,
+    "pending": 0,
+    "failures": 2,
+    "start": "2021-01-07T20:37:23.744Z",
+    "end": "2021-01-07T20:37:23.752Z",
+    "duration": 8,
+    "testsRegistered": 4,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "62d591a4-7329-423f-80ac-2f29bdc82e7e",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "218708f4-cc24-422d-adae-f253cb6699d0",
+          "title": "Assignments Tests",
+          "fullFile": "/Users/sreesanga/Desktop/Axone/devJS/module2/chapter3/assignment7/partBans/specs/test.js",
+          "file": "/specs/test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "3 greater than 4",
+              "fullTitle": "Assignments Tests 3 greater than 4",
+              "timedOut": false,
+              "duration": 2,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"This is Comparision Test\")\nassert.isAbove(3,4,'3 is greater than 4')",
+              "err": {
+                "message": "AssertionError: 3 is greater than 4: expected 3 to be above 4",
+                "estack": "AssertionError: 3 is greater than 4: expected 3 to be above 4\n    at Context.<anonymous> (file:///Users/sreesanga/Desktop/Axone/devJS/module2/chapter3/assignment7/partBans/specs/test.js:12:16)\n    at processImmediate (internal/timers.js:461:21)",
+                "diff": "- 3\n+ 4\n"
+              },
+              "uuid": "08aaf49a-c946-4def-a097-f3d40e3800a5",
+              "parentUUID": "218708f4-cc24-422d-adae-f253cb6699d0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Array [8,9,11,23] length is 4",
+              "fullTitle": "Assignments Tests Array [8,9,11,23] length is 4",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"This is Array length Test\")\nlet arr = [8,9,11,23];\n//let len = arr.length;\nassert.lengthOf(arr,'4','array length is not equal to 4')",
+              "err": {},
+              "uuid": "37d67fda-dc4d-4916-9ed8-bc421d847a41",
+              "parentUUID": "218708f4-cc24-422d-adae-f253cb6699d0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "strict equal 101 to '101'",
+              "fullTitle": "Assignments Tests strict equal 101 to '101'",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"This is Comparing strict equal Test\")\n//assert.strictEqual(101,'101','Either value or data type is different')\nexpect(101).to.deep.equal('101')",
+              "err": {
+                "message": "AssertionError: expected 101 to deeply equal '101'",
+                "estack": "AssertionError: expected 101 to deeply equal '101'\n    at Context.<anonymous> (file:///Users/sreesanga/Desktop/Axone/devJS/module2/chapter3/assignment7/partBans/specs/test.js:25:28)\n    at processImmediate (internal/timers.js:461:21)",
+                "diff": null
+              },
+              "uuid": "79abd9f4-ff3b-4f32-aebd-e3aa29feb52b",
+              "parentUUID": "218708f4-cc24-422d-adae-f253cb6699d0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Array ['a','b','c'] contains 'c'",
+              "fullTitle": "Assignments Tests Array ['a','b','c'] contains 'c'",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let arrStr = ['a','b','c']\nconsole.log(\"This Array includes Test\")\n//assert.include(arrStr,'c','C is included in the array')\nexpect(arrStr).to.include('c')",
+              "err": {},
+              "uuid": "fa91077b-6cd5-4e75-9f61-d32109d52886",
+              "parentUUID": "218708f4-cc24-422d-adae-f253cb6699d0",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "37d67fda-dc4d-4916-9ed8-bc421d847a41",
+            "fa91077b-6cd5-4e75-9f61-d32109d52886"
+          ],
+          "failures": [
+            "08aaf49a-c946-4def-a097-f3d40e3800a5",
+            "79abd9f4-ff3b-4f32-aebd-e3aa29feb52b"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 3,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.2.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}

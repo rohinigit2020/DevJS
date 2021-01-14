@@ -1,0 +1,157 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-01-03T17:08:59.633Z",
+    "end": "2021-01-03T17:08:59.639Z",
+    "duration": 6,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "dbe8263c-7299-4982-aefe-c1b2e39375cf",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c3695312-90d6-4386-8641-63e79c04ac99",
+          "title": "Calculator tests",
+          "fullFile": "/Users/sreesanga/Desktop/Axone/devJS/module2/chapter3/caluculatortest/specs/calcTest.js",
+          "file": "/specs/calcTest.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Addition test",
+              "fullTitle": "Calculator tests Addition test",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(n)\nlet val = calc.add(n,4);\nconsole.log(val)\n//assert.equal(val,9,\"the Addition of 5 and 4 should be 9\")\nexpect(val).to.equal(val)",
+              "err": {},
+              "uuid": "798c9ff1-d9e1-4d26-88ac-5feb94035818",
+              "parentUUID": "c3695312-90d6-4386-8641-63e79c04ac99",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Addition test",
+              "fullTitle": "Calculator tests Addition test",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(n)\nlet val = calc.add(n,4);\nconsole.log(val)\n//assert.equal(val,9,\"the Addition of 5 and 4 should be 9\")\nexpect(val).to.equal(val)",
+              "err": {},
+              "uuid": "59a055c8-f2ce-42c9-adb3-a7e419cee7ca",
+              "parentUUID": "c3695312-90d6-4386-8641-63e79c04ac99",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Addition test",
+              "fullTitle": "Calculator tests Addition test",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(n)\nlet val = calc.add(n,4);\nconsole.log(val)\n//assert.equal(val,9,\"the Addition of 5 and 4 should be 9\")\nexpect(val).to.equal(val)",
+              "err": {},
+              "uuid": "41351296-5c32-4005-8838-765f063c6310",
+              "parentUUID": "c3695312-90d6-4386-8641-63e79c04ac99",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Addition test",
+              "fullTitle": "Calculator tests Addition test",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(n)\nlet val = calc.add(n,4);\nconsole.log(val)\n//assert.equal(val,9,\"the Addition of 5 and 4 should be 9\")\nexpect(val).to.equal(val)",
+              "err": {},
+              "uuid": "59682e9d-f812-4130-8e77-4cacc70f99c7",
+              "parentUUID": "c3695312-90d6-4386-8641-63e79c04ac99",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "798c9ff1-d9e1-4d26-88ac-5feb94035818",
+            "59a055c8-f2ce-42c9-adb3-a7e419cee7ca",
+            "41351296-5c32-4005-8838-765f063c6310",
+            "59682e9d-f812-4130-8e77-4cacc70f99c7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.2.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}

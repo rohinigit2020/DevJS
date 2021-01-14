@@ -1,0 +1,35 @@
+{
+  "uid" : "2812710ef53c2183",
+  "name" : "Array [8,9,11,23] length is 4",
+  "fullName" : "Array [8,9,11,23] length is 4",
+  "historyId" : "027131d85ff8821802b13a1dfc6b2287",
+  "time" : {
+    "start" : 1610039539624,
+    "stop" : 1610039539625,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Assignments Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2812710ef53c2183.json",
+  "parameterValues" : [ ]
+}

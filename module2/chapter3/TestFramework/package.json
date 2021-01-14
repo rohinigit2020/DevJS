@@ -1,0 +1,23 @@
+{
+  "name": "chapter3",
+  "version": "1.1.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test1": "./node_modules/.bin/mocha specs/firstTest.js",
+    "test2": "./node_modules/.bin/mocha specs/secondTest.js",
+    "testAll": "./node_modules/.bin/mocha",
+    "allure-report": "./node_modules/.bin/allure generate ./allure-results -c && allure open",
+    "assiTest" : "./node_modules/.bin/mocha specs/assignmentTests.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "allure-commandline": "^2.13.8",
+    "allure-mocha": "^2.0.0-beta.9",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1"
+  }
+}

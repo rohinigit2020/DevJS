@@ -1,0 +1,41 @@
+{
+  "uid" : "6ea38e865b910460",
+  "name" : "strict equal 101 to '101'",
+  "fullName" : "strict equal 101 to '101'",
+  "historyId" : "d4bc1b5a17db88ab8878f0f37b2d7ba6",
+  "time" : {
+    "start" : 1610039539625,
+    "stop" : 1610039539626,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "Either value or data type is different: expected 101 to equal '101'",
+  "statusTrace" : "AssertionError: Either value or data type is different: expected 101 to equal '101'\n    at Context.<anonymous> (file:///Users/sreesanga/Desktop/Axone/devJS/module2/chapter3/TestFramework/specs/assignmentTests.js:24:15)\n    at processImmediate (internal/timers.js:461:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Assignments Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6ea38e865b910460.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "parc1ques",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean" : "rm -rf ./reports/*",
+    "test": "./node_modules/.bin/cucumber-js",
+    "reports" : "node report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^7.0.0",
+    "chai": "^4.2.0",
+    "cucumber-html-reporter": "^5.3.0"
+  }
+}
